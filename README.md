@@ -1,7 +1,8 @@
 # Flask REST API Image Processing
 Beberapa hal yang terdapat pada API ini adalah :
-- API pengubahan format file gambar (untuk mengupload dan mendownload)
-- Kompresi gambar (TBD)
+- API pengubahan format file gambar (untuk mengupload gambar yang akan diubah format)
+- API Kompresi gambar (untuk mengupload gambar yang akan dikompresi)
+- API untuk mendownload hasil perubahan format dan kompresi
 
 Dependensi yang digunakan adalah sebagai berikut :
 - click==8.0.3

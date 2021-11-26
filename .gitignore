@@ -24,3 +24,7 @@ htmlcov/
 .coverage
 .coverage.*
 *,cover
+
+# Additional directories
+.target/
+.user_uploaded/
