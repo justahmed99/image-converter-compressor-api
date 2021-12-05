@@ -1,10 +1,11 @@
 # Flask REST API Image Processing
-Beberapa hal yang terdapat pada API ini adalah :
-- API pengubahan format file gambar (untuk mengupload gambar yang akan diubah format)
-- API Kompresi gambar (untuk mengupload gambar yang akan dikompresi)
-- API untuk mendownload hasil perubahan format dan kompresi
+What is provided by this webservices :
+- API for changing a format of image file (user must upload an image file and desired format)
+- API for image compression (user must upload an image file to be compressed)
+- API for downloading result files
 
-Dependensi yang digunakan adalah sebagai berikut :
+## Dependencies
+Dependencies for this webservice :
 - click==8.0.3
 - colorama==0.4.4
 - Flask==2.0.2
@@ -15,17 +16,17 @@ Dependensi yang digunakan adalah sebagai berikut :
 - Pillow==8.4.0
 - Werkzeug==2.0.2
 
-## Langkah-langkah menggunakan
-- Pastikan interpreter Python 3 sudah terinstal pada komputer
-- Buat virtual environment
+## How to use
+- Make sure that Python 3 is installed on your computer or server
+- Create a virtual environment
 ```
 python -m venv env
 ```
-- Instal requirement pada requirements.txt
+- Install requirement from requirements.txt
 ```
 pip3 install -r requirements.txt
 ```
-- Eksekusi program
+- Execute script
 ```
 python app.py
 ```
